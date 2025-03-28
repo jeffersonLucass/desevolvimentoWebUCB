@@ -1,6 +1,6 @@
 // src/CategoriaService.ts
-import { Categoria } from "../src/Categoria";
-import { Produto } from "../src/Produto";
+import { Categoria } from "./Categoria";
+import { Produto } from "./Produto";
 
 export class CategoriaService {
     private categorias: Categoria[] = [];

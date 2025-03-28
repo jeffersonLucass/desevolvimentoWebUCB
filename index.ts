@@ -1,35 +1,33 @@
-import promptSync from "prompt-sync";
 import { CategoriaServiceCLI } from "./CategoriaServiceCLI";
-import { ProdutoServiceCli } from "./ProdutoServiceCli";
-
-const prompt = promptSync();
-
-const categoriaServiceCLI = new CategoriaServiceCLI();
-const produtoServiceCLI = new ProdutoServiceCLI();
+import { ProdutoServiceCLI } from "./ProdutoServiceCLI";
 
 function main() {
-    while (true) {
-        console.log("\n===== MENU PRINCIPAL =====");
-        console.log("1. Gerenciar Categorias");
-        console.log("2. Gerenciar Produtos");
-        console.log("0. Sair");
+    console.log("\n--- Sistema de Gestão ---");
+    console.log("1. Gerenciar Categorias");
+    console.log("2. Gerenciar Produtos");
+    console.log("3. Sair");
 
-        const opcao = prompt("Escolha uma opção: ");
+    process.stdout.write("Escolha uma opção: ");
+
+    process.stdin.once("data", (data) => {
+        const opcao = data.toString().trim();
 
         switch (opcao) {
             case "1":
-                categoriaServiceCLI.menu();
+                new CategoriaServiceCLI().iniciar();
                 break;
             case "2":
-                produtoServiceCLI.menu();
+                new ProdutoServiceCLI().iniciar();
                 break;
-            case "0":
-                console.log("Saindo do sistema... Até mais!");
-                process.exit(0);
+            case "3":
+                console.log("Saindo...");
+                process.exit();
+                break;
             default:
-                console.log("Opção inválida! Tente novamente.");
+                console.log("Opção inválida!");
+                main();
         }
-    }
+    });
 }
 
 main();

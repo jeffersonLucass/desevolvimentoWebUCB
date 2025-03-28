@@ -6,15 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
+    "@types/node": "^22.13.14",
+    "@types/prompt-sync": "^4.2.3",
     "@types/readline-sync": "^1.4.8"
   }
 }
