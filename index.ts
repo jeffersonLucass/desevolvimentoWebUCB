@@ -1,6 +1,6 @@
 import promptSync from "prompt-sync";
 import { CategoriaServiceCLI } from "./CategoriaServiceCLI";
-import { ProdutoServiceCLI } from "./ProdutoServiceCLI";
+import { ProdutoServiceCli } from "./ProdutoServiceCli";
 
 const prompt = promptSync();
 
