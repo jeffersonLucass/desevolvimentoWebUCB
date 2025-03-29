@@ -10,8 +10,10 @@
     "strict": true,
     "skipLibCheck": true,
     "baseUrl": "./",
-    "paths":{
-      "*":["*"]
-    }
-  }
+    "paths": {
+      "*": ["*"]
+    },
+    "outDir": "./inventario_memoria/dist",
+  },
+  "include": ["inventario_memoria/**/*.ts"] // Inclui apenas arquivos .ts na pasta inventario-memoria
 }
