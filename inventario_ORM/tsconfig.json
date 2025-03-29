@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json", // Herda as configurações do tsconfig global
+  "compilerOptions": {
+    "outDir": "./dist", // Saída dos arquivos compilados
+    "rootDir": "./", // Diretório raiz para os arquivos de entrada
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": ["**/*.ts"] ,// Inclui todos os arquivos TypeScript no diretório atual e subdiretórios
+  "exclude": ["node_modules", "**/*.spec.ts"] // Exclui arquivos de teste e diretório node_modules
+}
