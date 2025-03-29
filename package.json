@@ -1,11 +1,10 @@
 {
-  "name": "src",
+  "name": "desevolvimentoWebUCB",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,3 +19,4 @@
     "@types/readline-sync": "^1.4.8"
   }
 }
+
