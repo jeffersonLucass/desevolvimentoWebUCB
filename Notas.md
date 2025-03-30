@@ -206,6 +206,20 @@ class Usuario {
 
 ---
 
+### 🚀 Desafios
+
+Durante o desenvolvimento do projeto, enfrentamos diversos desafios técnicos e conceituais. Entre os principais, destacamos:
+
+- Execução do CRUD: Tivemos dificuldades em implementar corretamente as operações de Create, Read, Update e Delete, garantindo que os dados fossem manipulados corretamente e refletissem as mudanças no banco de dados.
+
+- Configuração de Categorias no tsconfig.json: Ajustar a configuração para garantir o correto reconhecimento das categorias foi um problema, exigindo refinamento das opções do arquivo JSON.
+
+- Integração com Banco de Dados: Encontramos desafios na integração do banco de dados, especialmente na correta utilização de imports e exports dentro do projeto, garantindo compatibilidade entre os módulos e evitando erros de importação.
+
+- Gerenciamento de Tipagem Dinâmica: Adaptar o código para utilizar tipagem estática com TypeScript foi um desafio, exigindo a conversão de trechos escritos originalmente sem tipagem.
+
+---
+
 **Esses exemplos demonstram a aplicação dos conceitos de TypeScript em componentes relacionados à internet, promovendo uma arquitetura modular e tipada em todo o nosso projeto.**
 
 
