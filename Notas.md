@@ -1,6 +1,6 @@
 # Notas.md
 
-Este arquivo contém exemplos descontextualizados, anotações, estudos e observações sobre TypeScript e sua estruta, sobre como foi feito o trabalho e demonstração de boas práticas de programação neste trabalho.
+Este arquivo contém exemplos descontextualizados, anotações, estudos e observações sobre TypeScript e sua estrutura, sobre como foi feito o trabalho e demonstração de boas práticas de programação.
 
 ---
 
