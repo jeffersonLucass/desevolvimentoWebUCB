@@ -5,7 +5,7 @@ Este arquivo contém exemplos descontextualizados, anotações, estudos e observ
 ---
 
 ## 📌 TypeScript
-Utilizamos TypeScript para garantir tipagem estática, proporcionando maior segurança e clareza no código.
+Utilizamos TypeScript para garantir tipagem estática, proporcionando maior segurança e clareza no código, além de que, essa foi a linguagem escolhida desde o começo deste projeto para devenvolvimento e aprendizado na matéria "Extensão: Desenvolvimento Web".
 
 ---
 
