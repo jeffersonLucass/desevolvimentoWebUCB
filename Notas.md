@@ -1,5 +1,15 @@
 # Notas.md
 
+
+### 👥 Integrantes do Projeto:
+- jefferson lucas alves rodrigues
+- Kaion Brandão Lima
+- Grazielly de almeida Sabino
+- Gustavo Mendonça Scot
+- gabrielly 
+
+
+
 Este arquivo contém exemplos descontextualizados, anotações, estudos e observações sobre TypeScript e sua estrutura, sobre como foi feito o trabalho e demonstração de boas práticas de programação.
 
 ---
