@@ -2,11 +2,11 @@
 
 
 ### 👥 Integrantes do Projeto:
-- jefferson lucas alves rodrigues
+- Jefferson Lucas Alves Rodrigues
 - Kaion Brandão Lima
 - Grazielly de almeida Sabino
 - Gustavo Mendonça Scot
-- gabrielly 
+- Gabrielly Araujo 
 
 
 
