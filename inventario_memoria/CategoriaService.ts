@@ -1,4 +1,3 @@
-// src/CategoriaService.ts
 import { Categoria } from "./Categoria";
 import { Produto } from "./Produto";
 
