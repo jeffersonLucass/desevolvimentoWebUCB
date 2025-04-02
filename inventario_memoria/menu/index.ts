@@ -14,11 +14,11 @@ function main() {
 
         switch (opcao) {
             case "1":
-                menuCategorias(); // Correto: Chamando a função diretamente
+                menuCategorias();
                 break;
             case "2":
-                const produtoCLI = new ProdutoServiceCLI(); // Correto: Instanciando a classe
-                produtoCLI.iniciar(); // Chamando o método iniciar() corretamente
+                const produtoCLI = new ProdutoServiceCLI();
+                produtoCLI.iniciar();
                 break;
             case "3":
                 console.log("Saindo...");
