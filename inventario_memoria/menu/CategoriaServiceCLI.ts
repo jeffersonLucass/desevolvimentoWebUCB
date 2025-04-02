@@ -3,7 +3,7 @@ import { CategoriaService } from "../categoria_produto/CategoriaService";
 import { Produto } from "../categoria_produto/Produto";
 
 const categoriaService = new CategoriaService();
-const produtos: Produto[] = []; // Lista de produtos para validação ao remover categoria
+const produtos: Produto[] = [];
 
 export function menuCategorias() {
     while (true) {
